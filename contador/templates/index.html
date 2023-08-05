@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de tags HTML</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+</head>
+<body>
+    <div id="inputs">
+        <h1 id="titulo">Contador de tags HTML</h1>
+        <p>Digite a url que deseja calcular no campo abaixo e clique em enviar. Os resultados serão mostrados a direita. <br>
+            A URL deve ser digitada conforme o padrão: https://example.com/ <br> (Incluindo o http:// ou https://).
+        </p>
+        
+        <div class="inputContainer">
+            <textarea id="inputUrl" placeholder="Digite aqui a url que deseja calcular"></textarea>
+            <input type="button" id="enviarUrl" value="Enviar">
+        </div>
+    </div>
+    <div id="results">
+        <div class="tabelaContainer">
+            <table class="tabela" id="resultados">
+                <thead>
+                    <tr>
+                        <th>Tag</th><th>Contagem</th>
+                    </tr>
+                </thead>
+                <tbody id="tabelaCorpo">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="../static/js/script.js"></script>
+</body>
+</html>
