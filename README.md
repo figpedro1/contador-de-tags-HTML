@@ -35,11 +35,11 @@ Bem-vindo à aplicação Contador de Tags HTML! Esta é uma aplicação web dese
 
 ### Instalando Dependências
 
-´pip install -r requirements.txt´
+`pip install -r requirements.txt`
 
 ### Executando o Servidor Django
 
-´python manage.py runserver´
+`python manage.py runserver`
 
 Acesse a aplicação em seu navegador através de `http://127.0.0.1:8000/`.
 
