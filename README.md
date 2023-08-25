@@ -46,7 +46,3 @@ Acesse a aplicação em seu navegador através de `http://127.0.0.1:8000/`.
 ## Autor
 
 Desenvolvido por Pedro Figueiredo
-
----
-
-Caso houver alguma dúvida ou problema, entre em contato através do e-mail: pedrofernando2003@gmail.com.
